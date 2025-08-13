@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import ShieldIcon from "@/components/ShieldIcon";
 import Dashboard from "@/components/Dashboard";
 import WorkspaceFeatures from "@/components/WorkspaceFeatures";
+import OnboardingSection from "@/components/OnboardingSection";
 
 const Index = () => {
   return (
@@ -53,6 +54,11 @@ const Index = () => {
         {/* Features */}
         <div className="animate-fade-in-up delay-700">
           <WorkspaceFeatures />
+        </div>
+
+        {/* Onboarding Section */}
+        <div className="animate-fade-in-up delay-900">
+          <OnboardingSection />
         </div>
       </div>
 
